@@ -4,6 +4,8 @@
 
 Build a website by dragging and dropping, right inside VS Code. No code needed: pick a template, drag sections onto the page, type your text, choose your colours, and export a finished website you can put online.
 
+![The Moritsuke editor in VS Code: elements to add on the left, the page in the middle, settings on the right](https://raw.githubusercontent.com/Phap-Nguyen/Moritsuke/main/tutorial/images/getting-started-06-editor.png)
+
 If you do write code, you can add your own CSS and JavaScript, paste HTML, and edit the project file directly. Your changes show up in the editor as you type.
 
 **New here? Read the [tutorial](tutorial/README.md)**: a step-by-step guide with pictures, from [getting started](tutorial/01-getting-started.md) to putting your website online.
