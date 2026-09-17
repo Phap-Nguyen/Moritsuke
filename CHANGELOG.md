@@ -2,6 +2,10 @@
 
 Versions with a letter (like 0.7.3a) are small fixes on top of the version before them.
 
+## 0.8.1
+
+- **Minimal portfolio** template: a light, quiet one-page portfolio with a large introduction, your selected work in big cards, an About section with your experience, and an email link. Pick it when you create a new project.
+
 ## 0.8.0
 
 - **Website Builder is now called Moritsuke** (盛り付け, the Japanese art of plating food).

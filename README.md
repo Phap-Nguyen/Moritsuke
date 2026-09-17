@@ -23,7 +23,7 @@ You can also drag the `.vsix` file onto the Extensions view, or run `code --inst
 ## Get started
 
 1. Click the **Moritsuke** icon (a small browser window) in the bar on the far left of VS Code.
-2. Choose **Create New Project**: give it a name, pick the *Portfolio* template or a *Blank page*, and choose where to save it.
+2. Choose **Create New Project**: give it a name, pick a template (*Portfolio*, *Minimal portfolio*) or a *Blank page*, and choose where to save it.
 3. The editor opens. Start building.
 
 Already made a website with Moritsuke? Choose **Add Existing Project** and pick its folder. Your websites stay listed in the side bar and in the **Moritsuke** tab, so you can come back to them any time.

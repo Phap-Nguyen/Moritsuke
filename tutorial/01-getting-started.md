@@ -41,7 +41,8 @@ Click **Create new project**. VS Code asks three quick questions at the top of t
 
 **2. A starting point.** Choose one with the arrow keys or the mouse, then press Enter:
 
-- **Portfolio**: a ready-made page with a menu, an introduction, an About section, a project grid, a contact form and a footer. You replace the example text and pictures with your own.
+- **Portfolio**: a ready-made dark page with a menu, an introduction, an About section, a project grid, a contact form and a footer. You replace the example text and pictures with your own.
+- **Minimal portfolio**: a light, quiet page with a large introduction, your selected work in big cards, an About section with your experience, and an email link. The grey pictures show the size that fits (1200 × 750); replace them with your own.
 - **Blank page**: an empty page to build from scratch.
 
 ![Step 2: pick a template](images/getting-started-04-template.png)
