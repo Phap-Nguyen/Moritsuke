@@ -72,6 +72,14 @@ Click **Export**. Your website is saved in a folder called `site` next to your p
 
 A project is a folder with a `.site.json` file, an `assets` folder for images, and optionally `custom.css` / `custom.js`.
 
+## Updates
+
+Moritsuke looks for a new version once a day and tells you when one is out. Choose **Update now** and it downloads the new version, checks it and installs it; VS Code then asks you to reload. **What's new** opens the release notes instead.
+
+The version you have is at the bottom of the **Moritsuke** tab, with a **Check for updates** link. You can also open the Command Palette (Cmd+Shift+P on Mac, Ctrl+Shift+P on Windows) and run **Moritsuke: Check for Updates**. To stop the daily check, turn off the *Check For Updates* setting.
+
+Your projects work across versions. A project made in a newer version still opens in an older one: parts the older version doesn't know are switched off, but they stay in the file and work again once you update. Moritsuke tells you when you open such a project.
+
 ## Settings
 
 | Setting | What it does |
@@ -79,6 +87,7 @@ A project is a folder with a `.site.json` file, an `assets` folder for images, a
 | Open Projects Tab | Open the Moritsuke tab when you click the side bar icon (on by default). |
 | Projects Folder | Where new projects are saved. Empty means `Documents/Moritsuke`. |
 | Export On Save | Export the website every time you save. |
+| Check For Updates | Look for a new version once a day and offer to install it (on by default). |
 
 ## Support
 

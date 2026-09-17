@@ -1,6 +1,12 @@
 # Changelog
 
-Versions with a letter (like 0.7.3a) are small fixes on top of the version before them.
+Versions with a letter (like 0.7.3a) are small fixes and groundwork added after that version; they come with the next numbered release.
+
+## 0.8.2
+
+- **Updates inside Moritsuke**: it tells you when a new version is out and installs it for you (**Update now**). There's also a **Moritsuke: Check for Updates** command, and a *Check For Updates* setting to turn the daily check off.
+- The **Moritsuke** tab shows which version you have, with a **Check for updates** link next to it.
+- **Projects work across versions**: a project made in a newer version still opens in an older one. Parts the older version doesn't know are switched off but stay in your file, and Moritsuke tells you the first time you open such a project.
 
 ## 0.8.1
 
