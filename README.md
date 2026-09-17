@@ -4,21 +4,32 @@
 
 Build a website by dragging and dropping, right inside VS Code. No code needed: pick a template, drag sections onto the page, type your text, choose your colours, and export a finished website you can put online.
 
-![The Moritsuke editor in VS Code: elements to add on the left, the page in the middle, settings on the right](https://raw.githubusercontent.com/Phap-Nguyen/Moritsuke/main/tutorial/images/getting-started-06-editor.png)
+![Dragging a Project grid section onto the page in the Moritsuke editor](https://raw.githubusercontent.com/Phap-Nguyen/Moritsuke/main/tutorial/images/demo-drag-and-drop.gif)
+
+[**Install from the Marketplace**](https://marketplace.visualstudio.com/items?itemName=phap-nguyen.moritsuke) · [**Project page on GitHub**](https://github.com/Phap-Nguyen/Moritsuke) · [**Tutorial**](https://github.com/Phap-Nguyen/Moritsuke/blob/main/tutorial/README.md) · [**Releases**](https://github.com/Phap-Nguyen/Moritsuke/releases)
 
 If you do write code, you can add your own CSS and JavaScript, paste HTML, and edit the project file directly. Your changes show up in the editor as you type.
 
-**New here? Read the [tutorial](tutorial/README.md)**: a step-by-step guide with pictures, from [getting started](tutorial/01-getting-started.md) to putting your website online.
+![The four parts of the editor: elements to add on the left, the page in the middle, settings on the right](https://raw.githubusercontent.com/Phap-Nguyen/Moritsuke/main/tutorial/images/getting-started-06-editor.png)
+
+**New here?** The [tutorial](https://github.com/Phap-Nguyen/Moritsuke/blob/main/tutorial/README.md) is a step-by-step guide with pictures, from [getting started](https://github.com/Phap-Nguyen/Moritsuke/blob/main/tutorial/01-getting-started.md) to putting your website online.
 
 ## Install
 
-**From a .vsix file** (for example, downloaded from a website):
+**From the Marketplace** (easiest, and VS Code keeps it up to date):
 
 1. In VS Code, open the **Extensions** view (the four-squares icon on the left, or Cmd+Shift+X on Mac, Ctrl+Shift+X on Windows).
+2. Search for **Moritsuke** and click **Install**.
+
+Or open the [extension page](https://marketplace.visualstudio.com/items?itemName=phap-nguyen.moritsuke) and click **Install**.
+
+**From a .vsix file** (for example, downloaded from the [releases page](https://github.com/Phap-Nguyen/Moritsuke/releases)):
+
+1. Open the **Extensions** view.
 2. Click the **⋯** menu at the top of that view and choose **Install from VSIX…**
 3. Pick the `moritsuke-….vsix` file.
 
-You can also drag the `.vsix` file onto the Extensions view, or run `code --install-extension moritsuke-0.8.0.vsix` in a terminal.
+You can also drag the `.vsix` file onto the Extensions view, or run `code --install-extension moritsuke-0.8.2.vsix` in a terminal.
 
 ## Get started
 
@@ -97,4 +108,4 @@ Moritsuke is free. If it helps you, you can buy me a bowl of pho:
 
 ---
 
-Planned features are listed in `ROADMAP.md`, and notes for working on the extension itself in `DEVELOPMENT.md` (both in the extension's source folder).
+Found a problem or have an idea? Open an [issue on GitHub](https://github.com/Phap-Nguyen/Moritsuke/issues).

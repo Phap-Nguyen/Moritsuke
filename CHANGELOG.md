@@ -2,6 +2,10 @@
 
 Versions with a letter (like 0.7.3a) are small fixes and groundwork added after that version; they come with the next numbered release.
 
+## 0.8.3
+
+- The extension page now opens with a short demo of a section being dragged onto a page, and links to the tutorial, the project page and the downloads. Nothing changed in the editor itself.
+
 ## 0.8.2
 
 - **Updates inside Moritsuke**: it tells you when a new version is out and installs it for you (**Update now**). There's also a **Moritsuke: Check for Updates** command, and a *Check For Updates* setting to turn the daily check off.
