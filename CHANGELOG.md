@@ -4,7 +4,8 @@ Versions with a letter (like 0.7.3a) are small fixes and groundwork added after 
 
 ## 0.8.3
 
-- The extension page now opens with a short demo of a section being dragged onto a page, and links to the tutorial, the project page and the downloads. Nothing changed in the editor itself.
+- **Already using Moritsuke? You can skip this one.** There are no fixes and nothing new in the editor.
+- The extension's page now opens with a short demo of a section being dragged onto a page, and links to the tutorial, the project page and the downloads. That's the only change.
 
 ## 0.8.2
 
