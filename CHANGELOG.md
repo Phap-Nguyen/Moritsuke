@@ -2,6 +2,11 @@
 
 Versions with a letter (like 0.7.3a) are small fixes and groundwork added after that version; they come with the next numbered release.
 
+## 0.8.4
+
+- Fixed: text, headings and buttons set to **Left** now really sit on the left, even inside a section that centres its content.
+- From here on, updates come one improvement at a time, so each one reaches you as soon as it's ready.
+
 ## 0.8.3
 
 - **Already using Moritsuke? You can skip this one.** There are no fixes and nothing new in the editor.
