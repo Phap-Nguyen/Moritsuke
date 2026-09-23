@@ -4,13 +4,17 @@
 
 Build a website by dragging and dropping, right inside VS Code. No code needed: pick a template, drag sections onto the page, type your text, choose your colours, and export a finished website you can put online.
 
-![Dragging a Project grid section onto the page in the Moritsuke editor](https://raw.githubusercontent.com/Phap-Nguyen/Moritsuke/main/tutorial/images/demo-drag-and-drop.gif)
+**Building a website:** drag sections onto the page, type straight on it, and set up buttons that switch between panels.
+
+<video src="https://raw.githubusercontent.com/Phap-Nguyen/Moritsuke/main/tutorial/images/demo-website.mp4" controls muted loop playsinline width="720"></video>
+
+**Building a small web app, coming in 0.9.0:** a screen of a fixed size where you place things freely, line them up with guides, resize them, and switch between screen sizes. It's already in the editor and is being finished off, one release at a time.
+
+<video src="https://raw.githubusercontent.com/Phap-Nguyen/Moritsuke/main/tutorial/images/demo-webapp.mp4" controls muted loop playsinline width="720"></video>
 
 [**Install from the Marketplace**](https://marketplace.visualstudio.com/items?itemName=phap-nguyen.moritsuke) · [**Project page on GitHub**](https://github.com/Phap-Nguyen/Moritsuke) · [**Tutorial**](https://github.com/Phap-Nguyen/Moritsuke/blob/main/tutorial/README.md) · [**Releases**](https://github.com/Phap-Nguyen/Moritsuke/releases)
 
 If you do write code, you can add your own CSS and JavaScript, paste HTML, and edit the project file directly. Your changes show up in the editor as you type.
-
-![The four parts of the editor: elements to add on the left, the page in the middle, settings on the right](https://raw.githubusercontent.com/Phap-Nguyen/Moritsuke/main/tutorial/images/getting-started-06-editor.png)
 
 **New here?** The [tutorial](https://github.com/Phap-Nguyen/Moritsuke/blob/main/tutorial/README.md) is a step-by-step guide with pictures, from [getting started](https://github.com/Phap-Nguyen/Moritsuke/blob/main/tutorial/01-getting-started.md) to putting your website online.
 

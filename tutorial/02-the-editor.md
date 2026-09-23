@@ -16,6 +16,8 @@ The editor has four parts.
 
 When the editor is narrow, the left panel tabs show only their icons. Point at an icon to see its name.
 
+**More room for the page.** Drag the edge of either side panel to make it wider or narrower, and double-click the edge to put it back. The two buttons at the far ends of the toolbar hide a panel completely, which gives the page the full window. Press them again to bring it back. The editor remembers your choice.
+
 ## The toolbar
 
 ![The toolbar](images/editor-02-toolbar.png)

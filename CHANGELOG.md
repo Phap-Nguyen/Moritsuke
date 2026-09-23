@@ -2,6 +2,15 @@
 
 Versions with a letter (like 0.7.3a) are small fixes and groundwork added after that version; they come with the next numbered release.
 
+## 0.8.7
+
+- **Side panels you can resize** are now switched on: drag the edge of the Add or Element panel to change its width, double-click the edge to put it back, and hide a panel completely with the buttons at the ends of the toolbar. The editor remembers your choice.
+- The **Link** field now has a **?** that explains what you can type: a web address, a section on the same page, another page, an email address or a phone number.
+- **More theme settings** are on in the Site tab: the colour of links in text, heading and text size, the space above and below sections, and the button shape (square, rounded or pill).
+- **Grid and Card** are switched on in the Add panel. A Grid lays cards out in rows that wrap by themselves; a Card is a box you fill with anything. Two ready-made blocks come with them: **Cards** and **Info cards**.
+- **Alignment now follows the section** by default, so an element sits the way its section, card or column says. Set it to left, center or right to overrule that.
+- **Pick several elements at once** with Shift (or Cmd / Ctrl) and change a setting for all of them in one go. Delete and duplicate work on the whole selection.
+
 ## 0.8.4
 
 - Fixed: text, headings and buttons set to **Left** now really sit on the left, even inside a section that centres its content.

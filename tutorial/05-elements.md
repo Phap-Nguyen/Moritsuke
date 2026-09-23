@@ -22,6 +22,14 @@ A label, a picture on one side, and a heading, text and button on the other.
 
 Like the Hero, it's made of ordinary elements: a section containing **Columns**.
 
+### Cards
+
+A ready-made section: a heading and three cards, each with a picture, a title and a line of text. Add or remove cards like any other element, and use the [Grid](#grid) settings to change how many sit in a row.
+
+### Info cards
+
+The same thing without pictures: three outlined cards for short facts (where you are, when you're free, how you work).
+
 ### Navigation
 
 The bar at the top of the page, with your name and links.
@@ -102,6 +110,20 @@ Puts elements side by side. Each column is its own area to drop elements into.
 
 If you reduce the number of columns, the content of the removed columns moves into the last remaining column, so nothing is lost.
 
+### Grid
+
+Lays out anything in a grid: cards, pictures, text. New grids come with three cards.
+
+**Layout:** how many **per row** (1 to 6), the **gap** between them, the **smallest card width** (cards wrap onto the next row instead of getting narrower than this), and whether cards are all the **same height** or as tall as their content.
+
+### Card
+
+A box you fill yourself: drop a picture, a heading, text or a button into it. Good for services, features, team members, links, anything.
+
+**Layout:** **Background** (surface, page, outline only, or accent), **inner space**, and the **alignment** of everything inside it.
+
+**Content:** a **Link** makes the whole card clickable, and the card lifts a little when the mouse is over it. Leave it empty for a plain card.
+
 ### Spacer
 
 Empty space. Set its **height**.
@@ -118,7 +140,9 @@ A thin horizontal line. Turn on **Accent colour** for a coloured line.
 
 ### Heading
 
-A title. **Size**: large (H1), medium (H2) or small (H3). **Alignment**: left, center or right.
+A title. **Size**: large (H1), medium (H2) or small (H3).
+
+**Alignment**: *Follow the section* (the usual choice: the element sits the way its section, card or column says), or force it left, center or right.
 
 ![Heading](images/elements-heading.png)
 
@@ -156,6 +180,9 @@ A link that looks like a button.
   - a section on the same page (`#contact`)
   - another page of your website (`resume.html`)
   - an email address (`mailto:you@example.com`)
+  - a phone number (`tel:+84901234567`)
+
+  Not sure what to type? Click the **?** next to **Link** and the same list appears in the panel.
 - **Style**: filled, outline, or a plain text link.
 - **Features:** **Open in a new tab**.
 

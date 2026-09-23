@@ -42,6 +42,10 @@ You don't need to think about this much: the blue line only appears where the el
 5. **Duplicate**: make a copy right below it.
 6. **Delete**.
 
+**Select several at once.** Hold **Shift** (or **Cmd** / **Ctrl**) and click more elements, on the page or in Layers. They all get an outline, and the right panel says how many you picked. Change a setting once and it applies to every one of them: five buttons all centred in a single go. Pick different kinds of element and you get the settings they have in common. Shift-click a selected element again to drop it from the selection, or click anywhere without holding Shift to start over.
+
+**Delete**, **Cmd+D** and the panel's duplicate button work on the whole selection too.
+
 You can also:
 
 - **Drag** a selected element to move it to another place, even into another section. Near the top or bottom edge of the page area, the page scrolls by itself. Press **Esc** while dragging to cancel.
