@@ -68,12 +68,9 @@ If the JSON can't be read (for example a missing comma), the visual editor shows
 
 ## Live reload in a browser
 
-To see the real exported website update in your browser while you work:
+The browser button in the toolbar (next to **Export**) exports the website, serves it on `http://localhost:5500` and opens it. Saving the project, `custom.css` or `custom.js` re-exports and reloads the page in the browser. The address is in the status bar; click it to stop the server.
 
-1. Turn on **Settings → Moritsuke → Export On Save** (see [Settings](12-settings-shortcuts-and-help.md)).
-2. Serve the `site` folder with any live-reload server, for example the *Live Server* extension for VS Code.
-
-Now every save of the project, `custom.css` or `custom.js` exports the website, and the browser reloads.
+If you'd rather use your own server (a framework's dev server, *Live Server*, or anything else), turn on **Settings → Moritsuke → Export On Save** and point it at the `site` folder.
 
 ## What the export looks like
 

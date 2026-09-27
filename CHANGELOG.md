@@ -2,6 +2,11 @@
 
 Versions with a letter (like 0.7.3a) are small fixes and groundwork added after that version; they come with the next numbered release.
 
+## 0.8.8
+
+- **Try your website in your own browser** is now switched on: the browser button next to **Export** (or **Moritsuke: Try Website in Browser**) exports your site, serves it at an address like `http://localhost:5500` and opens it. Videos play, forms send and your own scripts run, as they will for visitors.
+- While it runs, every save of the project, `custom.css` or `custom.js` exports again and reloads the page in the browser by itself. The address sits in the status bar: click it to stop, or it stops when you close VS Code. Only your own computer can reach it; nothing is put online.
+
 ## 0.8.7
 
 - **Side panels you can resize** are now switched on: drag the edge of the Add or Element panel to change its width, double-click the edge to put it back, and hide a panel completely with the buttons at the ends of the toolbar. The editor remembers your choice.
