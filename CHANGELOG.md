@@ -2,6 +2,12 @@
 
 Versions with a letter (like 0.7.3a) are small fixes and groundwork added after that version; they come with the next numbered release.
 
+## 0.8.9
+
+- **Arrange in a row** is now switched on for sections, cards and single columns: set *Arrange* to "In a row" to put elements side by side instead of one under another, like two buttons next to each other or a picture beside a paragraph.
+- A row comes with the **space between** its elements, how they **line up** (left, middle, right, or spread out) and whether they **wrap onto the next line** when there's no room, so rows still fit on a phone.
+- Your existing pages don't change: elements stay stacked unless you choose otherwise.
+
 ## 0.8.8
 
 - **Try your website in your own browser** is now switched on: the browser button next to **Export** (or **Moritsuke: Try Website in Browser**) exports your site, serves it at an address like `http://localhost:5500` and opens it. Videos play, forms send and your own scripts run, as they will for visitors.

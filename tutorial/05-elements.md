@@ -94,9 +94,15 @@ A band across the page that holds other elements. Most pages are a stack of sect
 **Layout:**
 
 - **Content width**: the theme width, narrow (good for text), or full width.
-- **Alignment**: left, center or right.
+- **Alignment**: left, center or right. Elements set to *Follow the section* line up this way.
+- **Arrange**: *Stacked* puts elements one under another (the usual way). *In a row* puts them side by side, which is how you get two buttons next to each other, or a picture beside a paragraph. A row adds:
+  - **Space between** them,
+  - **Line up**: left, middle, right, or *spread out* (first one left, last one right),
+  - **Wrap onto the next line when there's no room**, so rows still fit on a phone.
 - **Background**: the page colour, the surface colour or the accent colour.
 - **Vertical padding**: space above and below.
+
+**Arrange** works the same way inside a [Card](#card) and inside a single [column](#columns).
 
 ### Columns
 
