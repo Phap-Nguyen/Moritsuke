@@ -2,6 +2,14 @@
 
 Versions with a letter (like 0.7.3a) are small fixes and groundwork added after that version; they come with the next numbered release.
 
+## 0.9.0
+
+- **Fixed size screens are now switched on**: set a page's layout to a fixed size in the page settings and it behaves like a frame in a design tool. Elements sit exactly where you drop them and fill the box you give them, which suits a small web app or a dashboard as much as a page of a website.
+- **Snapping while you work**: moving an element snaps its edges to other edges and its middle to other middles, with pink guides showing the line. Resizing only snaps the edge you're dragging.
+- **Several elements at once**: select more than one to move them together, line up their edges or spread them out evenly, and nudge the selection with the arrow keys.
+- **Higher in Layers is in front**, the way design tools order things.
+- The editor zooms the screen to fit the window and shows its size; on the website, the screen scales down on narrower windows so the design stays exactly as made.
+
 ## 0.8.9
 
 - **Arrange in a row** is now switched on for sections, cards and single columns: set *Arrange* to "In a row" to put elements side by side instead of one under another, like two buttons next to each other or a picture beside a paragraph.
