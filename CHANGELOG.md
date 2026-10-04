@@ -2,6 +2,10 @@
 
 Versions with a letter (like 0.7.3a) are small fixes and groundwork added after that version; they come with the next numbered release.
 
+## 0.9.1
+
+- **Even spacing is now switched on** when moving elements on a fixed size screen: elements already sitting in a row or column are treated as one, without grouping them. Drag another one in and it snaps to the same gap as its neighbours, repeats the gap before the first or after the last, or splits the space evenly between two. The matching gap sizes are shown as you drag.
+
 ## 0.9.0
 
 - **Fixed size screens are now switched on**: set a page's layout to a fixed size in the page settings and it behaves like a frame in a design tool. Elements sit exactly where you drop them and fill the box you give them, which suits a small web app or a dashboard as much as a page of a website.
