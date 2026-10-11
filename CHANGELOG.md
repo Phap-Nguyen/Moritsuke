@@ -2,6 +2,12 @@
 
 Versions with a letter (like 0.7.3a) are small fixes and groundwork added after that version; they come with the next numbered release.
 
+## 0.9.2
+
+- **Layers you can tidy** are now switched on: rows fold shut with an arrow and open again when something inside is selected, and **double-click or F2** renames a row (the name is only for the editor).
+- **Hide an element** with the eye in Layers: it leaves the page, Preview and the export, but stays in your project.
+- **Lock an element** with the padlock: it can no longer be clicked or dragged on the page, so it can't be moved by accident.
+
 ## 0.9.1
 
 - **Even spacing is now switched on** when moving elements on a fixed size screen: elements already sitting in a row or column are treated as one, without grouping them. Drag another one in and it snaps to the same gap as its neighbours, repeats the gap before the first or after the last, or splits the space evenly between two. The matching gap sizes are shown as you drag.

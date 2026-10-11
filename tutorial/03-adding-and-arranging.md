@@ -68,6 +68,13 @@ The **Layers** tab shows everything on the current page as a list, with things i
 
 Layers is handy for small or hidden things, like a spacer, or an element deep inside columns.
 
+More in each row:
+
+- **Fold** a branch with the small arrow in front of it, to shorten a long list. It opens again by itself when you select something inside it.
+- **Rename** a row by double-clicking it (or pressing **F2**), for example "Main call to action" instead of "Button". The name is only for you: it shows in Layers, on the selection bar and in the panel title, never on the website. Clear it to go back to the plain name.
+- **Hide** with the eye that appears when you point at a row. A hidden element disappears from the page, the preview and the export, but stays in your project, so it's a good way to keep a draft section for later. Click the eye again to bring it back.
+- **Lock** with the padlock. A locked element can't be selected or dragged on the page, and clicks go straight through to what's behind it, which helps with a large background card on a fixed size screen. You can still select it in Layers and change its settings.
+
 > **Tip:** you can also drag something from **Add** into **Layers**: while dragging, rest the pointer on the **Layers** tab for a moment and it opens.
 
 ---
