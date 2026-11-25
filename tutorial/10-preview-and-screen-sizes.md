@@ -1,4 +1,4 @@
-# 8. Screen sizes and Preview
+# 10. Screen sizes and Preview
 
 ## Desktop, tablet and phone
 
@@ -30,6 +30,7 @@ In **Edit** mode, clicking selects things. Switch to **Preview** (top right) to 
 
   ![A project's detail panel in Preview](images/preview-04-detail-panel.png)
 
+- Click buttons that show or hide things, like tabs or a **Show more** button (see [Buttons that show or hide things](05-elements.md#buttons-that-show-or-hide-things)).
 - Links to other websites open in your normal browser.
 
 Switch back to **Edit** to keep building.
@@ -46,8 +47,8 @@ The browser button in the toolbar (next to **Export**) covers all of those. It e
 
 The address stays in the status bar at the bottom of VS Code while it's running. Every time you save the project, `custom.css` or `custom.js`, the website is exported again and the browser page reloads by itself. Click the address in the status bar to stop it, or leave it: it stops when you close VS Code.
 
-Only your own computer can reach that address; nothing is put online. Putting it online is the [next chapter](09-export.md).
+Only your own computer can reach that address; nothing is put online. Putting it online is the [next chapter](11-export.md).
 
 ---
 
-Next: [Exporting and putting it online](09-export.md)
+Next: [Exporting and putting it online](11-export.md)

@@ -30,6 +30,12 @@ A ready-made section: a heading and three cards, each with a picture, a title an
 
 The same thing without pictures: three outlined cards for short facts (where you are, when you're free, how you work).
 
+### Tabs
+
+A row of three buttons and three panels under them. Clicking a button shows its panel and hides the others, so only one shows at a time. Try it in **Preview**.
+
+It's made of ordinary elements: each button is set to **Switch to an element** (see [Buttons that show or hide things](#buttons-that-show-or-hide-things)), and the second and third panels are **Hidden until a button shows it**. To add a fourth tab, duplicate a button and a panel, then point the new button at the new panel.
+
 ### Navigation
 
 The bar at the top of the page, with your name and links.
@@ -80,6 +86,8 @@ The bar at the bottom of the page.
 ![Footer](images/elements-footer.png)
 
 **Content:** the text (`{year}` becomes the current year automatically) and a list of **links**.
+
+**Columns:** give links a **Column** name (open a link in the list to see it) and the links with the same name are listed together under that name, as a column above the footer's bottom row. For example *Work* for your projects and resume, *Elsewhere* for LinkedIn and itch.io. Links without a column stay in the bottom row.
 
 **Features:** **Show on every page** and a **Back to top** link.
 
@@ -181,7 +189,8 @@ A link that looks like a button.
 
 ![Button](images/elements-button.png)
 
-- **Label** and **Link**. The link can be:
+- **Label**, and **When clicked**: *Open a link* (the usual), or show or hide another element (see [below](#buttons-that-show-or-hide-things)).
+- **Link**. It can be:
   - a web address (`https://…`)
   - a section on the same page (`#contact`)
   - another page of your website (`resume.html`)
@@ -191,6 +200,23 @@ A link that looks like a button.
   Not sure what to type? Click the **?** next to **Link** and the same list appears in the panel.
 - **Style**: filled, outline, or a plain text link.
 - **Features:** **Open in a new tab**.
+
+#### Buttons that show or hide things
+
+A button can do something on the page instead of opening a link, without any code. Set **When clicked** to:
+
+- **Show an element**: for a panel, a menu or a message that appears when someone clicks.
+- **Hide an element**: for a **Close** button inside that panel.
+- **Show or hide an element (each click)**: for **Show more** / **Show less**.
+- **Switch to an element (like tabs)**: shows the element and hides the others that the buttons next to it switch to. The [Tabs](#tabs) block is built this way.
+
+Then pick the **Element** from the list (it lists everything on this page, indented like Layers; [renaming](03-adding-and-arranging.md#the-layers-panel) things in Layers makes them easier to find).
+
+Something that should appear only when clicked needs **Hidden until a button shows it**, in the **Features** of that element. The panel under the button helps: it says what will happen and has a **Hide it until clicked** link.
+
+On the page, the selected button has an arrow to its element, labelled with what happens to it. Elements hidden at start stay visible while you edit, faded with a dashed outline (and marked *hidden* in Layers), so you can still change them. Buttons do their thing in **Preview** and on your website.
+
+This works on free pages too: a button that opens a settings panel placed on top of the screen, with a Close button inside it. If a button inside a [component](03-adding-and-arranging.md#reusable-components) shows or hides something in the same component, every copy works on its own part.
 
 ### Video
 
@@ -210,7 +236,7 @@ For people who write code: paste an embed code (a map, a music player, a form se
 
 ![HTML code element](images/elements-html.png)
 
-See [For people who write code](11-for-developers.md#the-html-code-element).
+See [For people who write code](13-for-developers.md#the-html-code-element).
 
 ---
 

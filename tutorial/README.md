@@ -12,16 +12,18 @@ A step-by-step guide to everything you can do with Moritsuke, with pictures. No 
 3. [Adding and arranging](03-adding-and-arranging.md): putting things on the page and moving them.
 4. [Changing text, images and settings](04-editing-content.md): typing on the page and the settings panel.
 5. [Everything you can add](05-elements.md): every section and element, with a picture of each.
-6. [Pages](06-pages.md): more than one page, and a menu and footer shared by all pages.
-7. [Colours, fonts and site details](07-site-and-theme.md): the look of your whole website.
+6. [Pages](06-pages.md): more than one page, free layouts, dropdown menus, and a menu and footer shared by all pages.
+7. [Colours, fonts and site details](07-site-and-theme.md): the look of your whole website, and how it shows up when shared.
+8. [Design: backgrounds, the Look box and effects](08-design.md): a look of its own for one section or element.
+9. [Motion](09-motion.md): things that come in as you scroll, react to the pointer or stay on screen.
 
 ## Checking and finishing
 
-8. [Screen sizes and Preview](08-preview-and-screen-sizes.md): phones, tablets, and trying your website like a visitor.
-9. [Exporting and putting it online](09-export.md): turning your project into a real website.
+10. [Screen sizes and Preview](10-preview-and-screen-sizes.md): phones, tablets, and trying your website like a visitor.
+11. [Exporting and putting it online](11-export.md): turning your project into a real website.
 
 ## More
 
-10. [Managing your projects](10-projects.md): the project list, opening, adding and removing projects.
-11. [For people who write code](11-for-developers.md): your own CSS and JavaScript, HTML, classes and IDs.
-12. [Settings, shortcuts and help](12-settings-shortcuts-and-help.md): settings, keyboard shortcuts and common questions.
+12. [Managing your projects](12-projects.md): the project list, opening, adding and removing projects.
+13. [For people who write code](13-for-developers.md): your own CSS and JavaScript, HTML, classes and IDs.
+14. [Settings, shortcuts and help](14-settings-shortcuts-and-help.md): settings, keyboard shortcuts and common questions.

@@ -1,4 +1,4 @@
-# 11. For people who write code
+# 13. For people who write code
 
 Everything in the earlier chapters works without code. This chapter is for web developers who want more control. Nothing here gets in the way of beginners: it's all in collapsed sections or at the bottom of panels.
 
@@ -11,8 +11,9 @@ At the bottom of the **Site** tab, open **Code (optional)**:
 - **custom.css**: your own stylesheet for this website.
 - **custom.js**: your own script.
 - **Site file (JSON)**: the project file itself.
+- **In the head of every page** and **At the end of every page**: code boxes for snippets that belong in every page, such as meta tags, an analytics snippet, a library from a CDN or a chat widget's script.
 
-Each opens in a normal VS Code editor beside the visual editor, with all of VS Code's code editing features. `custom.css` and `custom.js` are created with a short explanation the first time you open them. The label next to each says **create** or **in use**.
+Each file opens in a normal VS Code editor beside the visual editor, with all of VS Code's code editing features. `custom.css` and `custom.js` are created with a short explanation the first time you open them. The label next to each says **create** or **in use**.
 
 ## custom.css: live styling
 
@@ -29,6 +30,26 @@ Useful selectors:
 ## custom.js
 
 `custom.js` runs in **Preview** and on the **exported website**, after the page and Moritsuke's own script have loaded. It doesn't run while you edit on the canvas, so it can't interfere with editing.
+
+### Driving effects from your script
+
+Every text effect and every Look box setting is written through a CSS variable, so a script can change it on a live page without touching the element's other styles:
+
+```js
+const hero = document.querySelector("#hero");        // an ID from the Advanced section
+hero.style.setProperty("--wb-blur-amount", "20px");  // blur harder
+hero.style.setProperty("--wb-fade", "0.4");          // fade it back
+hero.setAttribute("data-wb-fx", "off");              // all effects off
+hero.removeAttribute("data-wb-fx");                  // and back on
+```
+
+The variables are `--wb-blur-amount`, `--wb-glow-size`, `--wb-glow-color`, `--wb-outline-width`, `--wb-outline-color`, `--wb-shadow-x`, `--wb-shadow-y`, `--wb-shadow-blur`, `--wb-shadow-color`, and from the Look box `--wb-own-radius`, `--wb-nudge-x`, `--wb-nudge-y` and `--wb-fade`. A button can do the same without code: set **When clicked** to *Turn an element's effects on or off*.
+
+## Code in the head and at the end of every page
+
+The two code boxes in the Code section are copied into every exported page **exactly as typed**: the head code last in `<head>`, the end code after Moritsuke's own scripts, just before `</body>`. A page can add its own in its settings, under **Advanced (for code)**; it comes after the site's.
+
+They're left out of **Preview** and of the project pictures in the Moritsuke tab, so an analytics script never counts your own editing. Try them with the browser button next to **Export** (see [Try it in your browser](10-preview-and-screen-sizes.md#try-it-in-your-browser)) or on the exported site.
 
 ## Classes and IDs: the Advanced section
 
@@ -83,4 +104,4 @@ The export is plain, readable HTML, CSS and JavaScript, with no framework and no
 
 ---
 
-Next: [Settings, shortcuts and help](12-settings-shortcuts-and-help.md)
+Next: [Settings, shortcuts and help](14-settings-shortcuts-and-help.md)

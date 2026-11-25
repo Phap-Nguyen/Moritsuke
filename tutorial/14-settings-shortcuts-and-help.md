@@ -1,4 +1,4 @@
-# 12. Settings, shortcuts and help
+# 14. Settings, shortcuts and help
 
 ## Settings
 
@@ -8,7 +8,7 @@ Open VS Code's settings (**Cmd+,** on Mac, **Ctrl+,** on Windows) and search for
 
 | Setting | What it does |
 | --- | --- |
-| **Export On Save** | Export the website every time you save (for live reload, see [For people who write code](11-for-developers.md#live-reload-in-a-browser)). Off by default. |
+| **Export On Save** | Export the website every time you save (for live reload, see [For people who write code](13-for-developers.md#live-reload-in-a-browser)). Off by default. |
 | **Open Projects Tab** | Open the Moritsuke tab when you click the Moritsuke icon. On by default. |
 | **Projects Folder** | Where new projects are saved. Empty means `Documents/Moritsuke` in your home folder. |
 | **Check For Updates** | Look for a new version of Moritsuke once a day and offer to install it. On by default. |
@@ -23,7 +23,7 @@ Moritsuke checks once a day whether a new version is out, and shows a message wh
 
 **Which version do I have?** It's written at the bottom of the **Moritsuke** tab, next to a **Check for updates** link:
 
-> Moritsuke 0.8.2 · Check for updates
+> Moritsuke 1.0.0 · Check for updates
 
 You can also press **Cmd+Shift+P** (**Ctrl+Shift+P** on Windows), type *Moritsuke: Check for Updates* and press Enter.
 
@@ -57,7 +57,7 @@ On Windows and Linux, use **Ctrl** where the Mac uses **Cmd**.
 
 **The editor says "This site file can't be opened".** The project file has a mistake in it, usually from editing the JSON by hand. Click **Open as text**, fix the mistake (VS Code underlines it), save, and the visual editor comes back.
 
-**Something only works in Preview, or only on the exported website.** See the end of [Screen sizes and Preview](08-preview-and-screen-sizes.md#preview).
+**Something only works in Preview, or only on the exported website.** See the end of [Screen sizes and Preview](10-preview-and-screen-sizes.md#preview).
 
 **Where are my project files?** In the Moritsuke tab, open a card's **⋯** menu and choose **Show in file manager**.
 

@@ -6,8 +6,8 @@ The **Add** tab on the left has everything you can put on a page, in four groups
 
 ![The Add panel](images/add-01-palette.png)
 
-- **Sections**: big building blocks that fill the width of the page (Hero, About, Navigation, Project grid, Contact, Footer).
-- **Layout**: things that organise the page (Section, Columns, Spacer, Divider).
+- **Sections**: big building blocks that fill the width of the page (Hero, About, Cards, Info cards, Tabs, Navigation, Project grid, Contact, Footer).
+- **Layout**: things that organise the page (Section, Columns, Grid, Card, Spacer, Divider).
 - **Basic**: the content itself (Heading, Text, Image, Button, Video).
 - **Code**: HTML code, for people who write code.
 
@@ -39,8 +39,9 @@ You don't need to think about this much: the blue line only appears where the el
 2. **Select the parent**: select what this element sits in (for example the section around a heading). On a section, it opens the page's settings.
 3. **Move up** (or left, for a column).
 4. **Move down** (or right, for a column).
-5. **Duplicate**: make a copy right below it.
-6. **Delete**.
+5. **Make component**: reuse it anywhere as copies that change together (see [Reusable components](#reusable-components)).
+6. **Duplicate**: make a copy right below it.
+7. **Delete**.
 
 **Select several at once.** Hold **Shift** (or **Cmd** / **Ctrl**) and click more elements, on the page or in Layers. They all get an outline, and the right panel says how many you picked. Change a setting once and it applies to every one of them: five buttons all centred in a single go. Pick different kinds of element and you get the settings they have in common. Shift-click a selected element again to drop it from the selection, or click anywhere without holding Shift to start over.
 
@@ -76,6 +77,19 @@ More in each row:
 - **Lock** with the padlock. A locked element can't be selected or dragged on the page, and clicks go straight through to what's behind it, which helps with a large background card on a fixed size screen. You can still select it in Layers and change its settings.
 
 > **Tip:** you can also drag something from **Add** into **Layers**: while dragging, rest the pointer on the **Layers** tab for a moment and it opens.
+
+## Reusable components
+
+Made something you'll want again, like a feature card, a price box or a header? Turn it into a **component**, then use copies of it anywhere. Change the component once and every copy follows.
+
+1. Select the element and press **Make component**: it's in the right panel, and it's the **diamond** on the selection bar on the page. The shortcut is **Cmd+Alt+K** (**Ctrl+Alt+K** on Windows). The element becomes the first copy, right where it was.
+2. The component appears under **Your components** at the top of the **Add** panel. Drag it onto any page, or click it, to add another copy.
+3. Select a copy to see **This copy's content**: its text, pictures and links. Change them there, and only that copy changes. **Use the component's content again** undoes that copy's own content.
+4. To change the component itself (its look, its layout, what's in it), select any copy and press **Edit component** in the panel, or the diamond on its selection bar. The component opens in place, outlined in purple, with a bar across the top. Edit it like anything else; the other copies follow as you go. Press **Done** on the bar when you're finished.
+5. **Detach** turns one copy back into ordinary elements that are no longer linked.
+6. To delete a component, point at its tile under **Your components** and press the small bin. Its copies stay on the page as ordinary elements, so nothing you placed disappears. Undo brings the component back.
+
+Copies on a page are picked as a whole: clicking anywhere on one selects the copy. Its content is changed in the panel, not by typing on the page. Renaming the component (in the panel, under **Component**) changes its name under **Your components**.
 
 ---
 

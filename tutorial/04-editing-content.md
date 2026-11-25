@@ -19,8 +19,14 @@ Select something on the page and the **Element** tab on the right shows its sett
 
 - **Content**: the text, pictures and links.
 - **Layout**: size, shape, alignment, spacing and background.
+- **Style**: the Look box (colour, background, border, corners, shadow, inner space, nudge, fade) and, for text, effects. See [Design: backgrounds, the Look box and effects](08-design.md).
+- **Motion**: how it comes in as the page scrolls, what it does under the pointer, and whether it stays on screen. See [Motion](09-motion.md).
 - **Features**: switches for built-in behaviour (see below).
-- **Advanced (for code)**: closed by default; see [For people who write code](11-for-developers.md).
+- **Advanced (for code)**: closed by default; see [For people who write code](13-for-developers.md).
+
+Short settings sit on one line, with the name on the left. A **?** beside a name explains the setting when you point at it.
+
+**Numbers** are changed by **dragging across the box**, left for less and right for more, one step per pixel (hold **Shift** for finer steps). Click the box without dragging to type a number instead.
 
 At the top, **Inside …** tells you what the element sits in. Click it to select that. The buttons next to the name select the parent, duplicate and delete.
 
@@ -38,6 +44,7 @@ Select an image (or a project in a project grid) to see its picture settings:
 - **Description (alt text)** describes the picture for people using screen readers, and for search engines.
 - **Shape** crops the picture: original, square, 4:3, 16:9 or portrait.
 - **Width** and **Alignment** set its size and position.
+- With a shape other than *Original*, a round **grip** appears on the picture on the page: drag it to choose which part of the picture shows in the frame.
 
 If you replace a picture file on your computer with a new version, the page updates by itself.
 
@@ -63,7 +70,7 @@ The **Features** group has switches for things the element can do. For example, 
 - **Detail panel on click**: clicking a project opens a large panel with its picture and full description.
 - **Black & white covers until hover**: pictures turn to colour when the mouse is over them.
 
-Most features only work when someone uses the page, so try them in **Preview** (see [Screen sizes and Preview](08-preview-and-screen-sizes.md)).
+Most features only work when someone uses the page, so try them in **Preview** (see [Screen sizes and Preview](10-preview-and-screen-sizes.md)).
 
 ---
 

@@ -2,6 +2,52 @@
 
 Versions with a letter (like 0.7.3a) are small fixes and groundwork added after that version; they come with the next numbered release.
 
+## 1.0.0
+
+Moritsuke 1.0: everything a personal website needs, short of putting it online. This release brings together all the work since 0.9.2.
+
+**A new way to start**
+
+- The **Moritsuke** tab shows each project as a card with a small picture of its home page, next to a **Create new project** card.
+- Creating a project takes three steps in the tab: start from a blank page or one of **eight templates** (portfolios, resume, links page, landing page, cafe, dashboard, homelab panel), pick colours, fonts and corners with a live preview, then name it.
+- A short **tour of the editor** is offered the first time you open it, and is always in the new **?** menu.
+- The tutorial is updated for all of it.
+
+**Design with more freedom**
+
+- **Section backgrounds:** a colour of its own, a gradient of up to nine colours that you drag across the section, or a picture that can be filled, fitted or tiled, darkened, blurred, faded at the edges and given a film grain.
+- **A Look box on every element:** text colour, background, border, rounded corners (drag the handle in the corner), shadow, inner space, a nudge that lets things overlap, and a fade.
+- **Effects on text:** outline, hollow, glow, shadow, gradient fill and blur, any of them at once. A blur can be soft or a motion smear, and can be kept to patches you move and resize on the page.
+- **Motion:** elements can come in as they scroll into view (fade, rise, slide, zoom), one after another inside a section or grid; lift, grow or glow under the pointer; stay on screen while their section scrolls past; and have their effects follow the scroll. Smooth scrolling for menu links is a switch in the Site tab. Visitors who asked their device for less motion see everything in place.
+- **Handles on the page:** drag a section's top and bottom edges to change its spacing and its sides to change its width, drag a grip to move a cropped picture inside its frame, and take any colour from the page with the dropper beside every colour setting.
+- Settings in the Element panel read as rows, and numbers are dragged to change them (Shift for finer steps, click to type). Explanations sit behind the **?** beside each label.
+
+**Free layouts**
+
+- **Flow or Free** is a switch in the toolbar. A free page is one screen where you place things anywhere, with screen sizes to pick from or your own, a line grid to snap to, and a column guide on flowing pages.
+- **Free sections:** one section set to Free is an area where elements are placed anywhere, overlapping if you like, while the rest of the page keeps flowing.
+- **Screens that adapt:** a free page or section either scales down as a whole on smaller windows, or adapts, with each element keeping the edges it's anchored to.
+
+**Reusable parts and buttons that do things**
+
+- **Components:** make anything into a component (Cmd+Alt+K) and use copies of it on any page, from **Your components** in the Add panel. Change the component and every copy follows; each copy can still have its own text, pictures and links.
+- **Buttons that show, hide or switch between elements**, for tabs, a "read more", or a menu of your own. Any element can start hidden. A button can also turn an element's effects on or off.
+- Elements dropped onto a free page land centred where you let go, at their real size.
+
+**A finished site**
+
+- **Dropdown menus:** drag a page onto another in the Pages list and it drops down under that page in the navigation.
+- **Footer columns:** give footer links a column name and they're grouped under it.
+- **A tab icon and link previews:** set the icon for the browser tab, and the picture shown when someone posts a link to your site (Site tab, Sharing). A page can have its own picture.
+- **A page for broken links:** every website now comes with a 404 page. Use one of your own pages for it, or keep the one made for you.
+- With your **website address** set, every export also comes with `sitemap.xml`, `robots.txt` and canonical links for search engines.
+- **Code for the head and the end of every page** in the Site tab's Code section, and per page in its Advanced settings, for analytics, meta tags or a widget's script.
+- `custom.js` and your effects work together: every effect is a CSS variable your script can change.
+
+**Fixed**
+
+- Preview could stay blank inside VS Code.
+
 ## 0.9.2
 
 - **Layers you can tidy** are now switched on: rows fold shut with an arrow and open again when something inside is selected, and **double-click or F2** renames a row (the name is only for the editor).

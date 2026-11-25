@@ -1,4 +1,4 @@
-# 10. Managing your projects
+# 12. Managing your projects
 
 A **project** is one website: a folder with a `.site.json` file (the project), an `assets` folder for pictures, and, after exporting, a `site` folder.
 
@@ -19,7 +19,7 @@ The same projects, as cards. Clicking the Moritsuke icon opens this tab (unless 
 
 ![The Moritsuke tab with two projects](images/projects-02-tab.png)
 
-Each card shows the website's title in its own colours, the number of pages, when you last opened it, and where it's saved. **Click a card** to open the project.
+The first card is **Create new project** (see [Create your first website](01-getting-started.md#create-your-first-website)). Every other card shows a small picture of the website's home page, its title, the number of pages, when you last opened it, and where it's saved. **Click a card** to open the project. **Add existing project** is at the top right.
 
 The **⋯** button on a card (shown when you point at the card) has more options:
 
@@ -47,4 +47,4 @@ Opening any `.site.json` file in VS Code also adds it to the list.
 
 ---
 
-Next: [For people who write code](11-for-developers.md)
+Next: [For people who write code](13-for-developers.md)

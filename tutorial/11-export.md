@@ -1,4 +1,4 @@
-# 9. Exporting and putting it online
+# 11. Exporting and putting it online
 
 ## Export
 
@@ -22,10 +22,15 @@ My Portfolio/
 └── site/                    ← your exported website
     ├── index.html           ← the home page
     ├── resume.html          ← one file for each other page
+    ├── 404.html             ← shown for links to pages that don't exist
     ├── styles.css           ← the look of your website
-    ├── site.js              ← menus, filters and the detail panel (only if needed)
+    ├── site.js              ← menus, filters, motion and the detail panel (only if needed)
+    ├── sitemap.xml          ← a list of your pages for search engines (with a website address)
+    ├── robots.txt           ← points search engines to the sitemap (with a website address)
     └── assets/              ← the pictures and videos your pages use
 ```
+
+`sitemap.xml` and `robots.txt` are only made once the **Website address** is set (Site tab, Sharing), because they need your site's full address.
 
 These are ordinary web files: plain HTML, CSS and JavaScript. They don't need Moritsuke to work.
 
@@ -46,4 +51,4 @@ Things to know:
 
 ---
 
-Next: [Managing your projects](10-projects.md)
+Next: [Managing your projects](12-projects.md)
